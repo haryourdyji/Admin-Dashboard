@@ -1,0 +1,101 @@
+.login-logo {
+  margin-top: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dsh-logo {
+  width: 250px;
+  border-radius: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.logo-desc {
+  font-size: 2.4rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ced4da;
+  max-width: 120rem;
+  height: 100vh;
+}
+
+.login-details {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.logo-container input {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #888;
+  border-radius: 9px;
+  border: 1px solid #f1f3f5;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #888;
+}
+
+input::placeholder {
+  text-transform: capitalize;
+}
+
+.btn-login {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.6rem;
+  border-radius: 9px;
+  color: #888;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 1.4rem;
+}
+
+.btn-login:focus {
+  outline: none;
+}
+
+.btn-login:hover {
+  background-color: #343a40;
+  color: #fff;
+}
+
+h4 {
+  text-align: center;
+  color: #888;
+}
+
+h4 a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #888;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+h4 a:focus {
+  outline: none;
+}
+
+h4 a:hover {
+  text-decoration: underline;
+  color: #555;
+}
